@@ -37,7 +37,7 @@ class FirstViewController: UIViewController {
 //        })
         
         // Optionally override the scopes based on the usecase.
-        let hostedUIOptions = HostedUIOptions(scopes: ["openid", "email", "profile"])
+        let hostedUIOptions = HostedUIOptions(scopes: ["openid", "email", "profile", "aws.cognito.signin.user.admin"])
         
         // Present the Hosted UI sign in.
         AWSMobileClient.sharedInstance().showSignIn(navigationController: self.navigationController!, hostedUIOptions: hostedUIOptions) { (userState, error) in
