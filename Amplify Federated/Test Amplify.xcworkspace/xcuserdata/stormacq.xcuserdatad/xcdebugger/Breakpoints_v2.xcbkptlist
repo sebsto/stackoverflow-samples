@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Test Amplify/AppDelegate.swift"
+            timestampString = "586613636.937831"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "sign(_:didSignInFor:withError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AWSMobileClient.UserState&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Test_Amplify.AppDelegate.sign(_: Swift.Optional&lt;__C.GIDSignIn&gt;, didSignInFor: Swift.Optional&lt;__C.GIDGoogleUser&gt;, withError: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "Test Amplify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stormacq/Documents/amazon/code/so/Test%20Amplify/Test%20Amplify/AppDelegate.swift"
+                  timestampString = "586613556.926425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1085">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AWSMobileClient.Tokens&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;AWSMobileClient.UserState&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Test_Amplify.AppDelegate.sign(_: Swift.Optional&lt;__C.GIDSignIn&gt;, didSignInFor: Swift.Optional&lt;__C.GIDGoogleUser&gt;, withError: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "Test Amplify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stormacq/Documents/amazon/code/so/Test%20Amplify/Test%20Amplify/AppDelegate.swift"
+                  timestampString = "586613556.92874"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
