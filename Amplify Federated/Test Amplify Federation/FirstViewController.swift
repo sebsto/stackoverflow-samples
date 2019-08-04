@@ -37,7 +37,7 @@ class FirstViewController: UIViewController {
 //        })
         
         // Optionally override the scopes based on the usecase.
-        let hostedUIOptions = HostedUIOptions(scopes: ["openid", "email"])
+        let hostedUIOptions = HostedUIOptions(scopes: ["openid", "email", "profile"])
         
         // Present the Hosted UI sign in.
         AWSMobileClient.sharedInstance().showSignIn(navigationController: self.navigationController!, hostedUIOptions: hostedUIOptions) { (userState, error) in
@@ -46,6 +46,18 @@ class FirstViewController: UIViewController {
             }
             if let userState = userState {
                 print("Status: \(userState.rawValue)")
+                print("\(AWSMobileClient.sharedInstance().username)")
+                print("")
+                AWSMobileClient.sharedInstance().getTokens({ (tokens, error) in
+                    print("\(error)")
+                    print("\(tokens)")
+                })
+                print("")
+                AWSMobileClient.sharedInstance().getUserAttributes(completionHandler: { (attributes, error) in
+                    print("\(error)")
+                    print("\(attributes)")
+                })
+                
             }
         }
 

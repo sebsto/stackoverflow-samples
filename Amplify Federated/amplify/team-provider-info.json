@@ -1,18 +1,18 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "testamplify-dev-20190804132518-authRole",
-            "UnauthRoleArn": "arn:aws:iam::486652066693:role/testamplify-dev-20190804132518-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::486652066693:role/testamplify-dev-20190804132518-authRole",
+            "AuthRoleName": "amplifyfederated-dev-20190804183932-authRole",
+            "UnauthRoleArn": "arn:aws:iam::486652066693:role/amplifyfederated-dev-20190804183932-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::486652066693:role/amplifyfederated-dev-20190804183932-authRole",
             "Region": "eu-west-1",
-            "DeploymentBucketName": "testamplify-dev-20190804132518-deployment",
-            "UnauthRoleName": "testamplify-dev-20190804132518-unauthRole",
-            "StackName": "testamplify-dev-20190804132518",
-            "StackId": "arn:aws:cloudformation:eu-west-1:486652066693:stack/testamplify-dev-20190804132518/8a1d91c0-b6aa-11e9-94af-0a999da78b84"
+            "DeploymentBucketName": "amplifyfederated-dev-20190804183932-deployment",
+            "UnauthRoleName": "amplifyfederated-dev-20190804183932-unauthRole",
+            "StackName": "amplifyfederated-dev-20190804183932",
+            "StackId": "arn:aws:cloudformation:eu-west-1:486652066693:stack/amplifyfederated-dev-20190804183932/6faf3240-b6d6-11e9-afff-06fd3e47f290"
         },
         "categories": {
             "auth": {
-                "testamplifyd5308fe0": {
+                "amplifyfederatedd59129ec": {
                     "googleAppIdUserPool": "778860710030-qck24u7m3dkhdbobka9878n9i2gkp3a8.apps.googleusercontent.com",
                     "googleAppSecretUserPool": "ItTzO90hWktw2TiJjnx7xQiK",
                     "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"778860710030-qck24u7m3dkhdbobka9878n9i2gkp3a8.apps.googleusercontent.com\",\"client_secret\":\"ItTzO90hWktw2TiJjnx7xQiK\"}]"

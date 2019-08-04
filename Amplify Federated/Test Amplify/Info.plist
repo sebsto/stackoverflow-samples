@@ -26,14 +26,6 @@
 				<string>com.googleusercontent.apps.778860710030-mpdbm73of72fea2noha0jt4ejum6d2s6</string>
 			</array>
 		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>com.stormacq.aws.so.Test-Amplify</string>
-			</array>
-		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>

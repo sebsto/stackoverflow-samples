@@ -12,3 +12,15 @@ target 'Test Amplify' do
   pod 'AWSUserPoolsSignIn', '~> 2.10.0'   # Optional dependency required to use drop-in UI
 
 end
+
+target 'Test Amplify Federation' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Test Amplify
+  pod 'GoogleSignIn'
+  pod 'AWSMobileClient', '~> 2.10.0'      # Required dependency
+  pod 'AWSAuthUI', '~> 2.10.0'            # Optional dependency required to use drop-in UI
+  pod 'AWSUserPoolsSignIn', '~> 2.10.0'   # Optional dependency required to use drop-in UI
+
+end
