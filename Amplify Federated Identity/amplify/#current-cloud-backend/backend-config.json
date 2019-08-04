@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"testamplifyd5308fe0": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
